@@ -3,6 +3,7 @@ body{
   background-color: #CCCCCC;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 150%;
+  background-image: url(../images/dynamic-style.png);
 }
 
 header{
@@ -52,6 +53,11 @@ a{
   text-decoration: none;
 }
 
+li a:hover{
+  position: relative;
+  left: 5%;
+}
+
 .container{
   width: 960px;
   background-color: #ffffff;
@@ -88,7 +94,7 @@ footer{
   font-size: 15px;
   padding-top: 15px;
   margin-top: 75px;
-  clear: both;
+ clea
 }
 
 #submit{
@@ -101,11 +107,11 @@ footer{
 #box{
   float: left;
   margin: 0 auto;
-  height: 350px;
+  height: 250px;
 }
 
 .image{
-  height: 300px;
+ 
   width: 300px;
   margin: 25px;
 }
@@ -115,9 +121,11 @@ footer{
   background-color: #4aaaa5;
   display: block;
   position: relative;
-  top:-110px;
-  padding: 20px 0px;
+  top:-70px;
+  padding: 5px 0px;
   text-align: center;
   color: #ffffff;
 }
+
+
 
